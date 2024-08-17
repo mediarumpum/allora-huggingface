@@ -50,6 +50,9 @@ cd $HOME
 git clone https://github.com/allora-network/allora-huggingface-walkthrough
 cd allora-huggingface-walkthrough
 
+echo "Enter your wallet seed phrase:"
+read -p "Address Restore Mnemonic: " addressRestoreMnemonic
+
 mkdir -p worker-data
 chmod -R 777 worker-data
 
